@@ -1,0 +1,29 @@
+<!--
+    Dalam file HTML tersebut, buatlah isian HTML yang terdiri dari 2 textbox dan 1 dropdown (select option). Textbox gunakan tipe isian angka, sedangkan dropdown box berisi string pilihan +, -, * /.  Commit sebagai v1.1
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form>
+		<label for="num1">Number 1:</label>
+		<input type="number" id="num1" name="num1"><br><br>
+
+		<label for="num2">Number 2:</label>
+		<input type="number" id="num2" name="num2"><br><br>
+
+		<label for="operator">Operator:</label>
+		<select id="operator" name="operator">
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="*">*</option>
+			<option value="/">/</option>
+		</select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
